@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1060040572005980}
+  m_IsPrefabParent: 1
+--- !u!1 &1060040572005980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4221984789456304}
+  - component: {fileID: 114268192528354792}
+  - component: {fileID: 114547084326017722}
+  - component: {fileID: 114131974668396796}
+  - component: {fileID: 114936323604442366}
+  - component: {fileID: 114695339823179640}
+  m_Layer: 0
+  m_Name: MainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221984789456304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114131974668396796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b83d0d5a34c0bb499365a8172f40022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holeSpawnerSan: {fileID: 0}
+  holeTimer: 45
+--- !u!114 &114268192528354792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea9688a4436ff749b1c6477ae1febb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MainCharacterPrefab: {fileID: 1581221067257684, guid: 54d5a6d3f4530654da9c4db1cb24b3fb,
+    type: 2}
+  m_GUICameraPrefab: {fileID: 1435216803663656, guid: a6cbcea4492af4b4d9d4f50285a39646,
+    type: 2}
+  player: {fileID: 0}
+--- !u!114 &114547084326017722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e51acdce98e04448295dc0a47e6b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSell: []
+  spawnManager: {fileID: 0}
+  objects:
+  - {fileID: 1605053791715492, guid: a61183b0ab2266c448dfd11ea34c0091, type: 2}
+  - {fileID: 1269219385114928, guid: 9e1c53fd6b1eeae49b38bae68a06caf0, type: 2}
+  - {fileID: 1814781834806504, guid: 895271be18349cb4f917c41d1c6f5992, type: 2}
+  - {fileID: 1765579104428310, guid: 538dbdc3bb9da7642b8c408186c1a8cb, type: 2}
+  - {fileID: 1747760245992380, guid: 4949ab8417707454d9817e5814e341bb, type: 2}
+  - {fileID: 1054946279758224, guid: 4fab3b61bde8cc640a97cd348b44d0b2, type: 2}
+  - {fileID: 1018565096609332, guid: 351b4888354a26e4eb71bcae6f6ef448, type: 2}
+  - {fileID: 1623515824252774, guid: 52269f492cc862a4ca042e0c0f81d391, type: 2}
+  - {fileID: 1757493852276104, guid: 13a7651e151c6e24a9442d0e9a4ba4dd, type: 2}
+  - {fileID: 1332869410045878, guid: 31974bf9540587d4e97cf5e5b9003183, type: 2}
+  - {fileID: 1041271820889800, guid: 4e0c688520b4212469d509022cb421da, type: 2}
+  - {fileID: 1495193799084048, guid: 3ba346b469b1dad4e9b6bf5dc65799e5, type: 2}
+  - {fileID: 1632718226183160, guid: 4667d2269f025f647bbcd77e8b8f45bd, type: 2}
+  - {fileID: 1996885116007242, guid: f9a62965bd6563e42b402c023af235c7, type: 2}
+  - {fileID: 1535385393167308, guid: 6a0c19a03b7f95840b41b725364756b4, type: 2}
+  - {fileID: 1662449245846758, guid: 0e575ecd6dcfffb4a8e1111764383935, type: 2}
+  - {fileID: 1613454250788434, guid: 2ccf7261a66d762498b3f09036ca60c4, type: 2}
+  - {fileID: 1221988635561198, guid: a1a0c9c8d291d0e47b5331a6a67a4b47, type: 2}
+  - {fileID: 1668985656296314, guid: 2778ae55b6c5c0d44b1c06cf921586e9, type: 2}
+  - {fileID: 1977305807449874, guid: fe9a83e89184b6f43b9e8663db4694ca, type: 2}
+  - {fileID: 1303398373760994, guid: c117e6f7db5e35b468874968c07c1ffd, type: 2}
+  - {fileID: 1990283863750918, guid: 6da970a084c18784892297e56b777397, type: 2}
+  - {fileID: 1713820005278610, guid: b90f1e17164e0024f8556039a57f9924, type: 2}
+  - {fileID: 1941274064383666, guid: f91205e4fd8158842b2e89ec0c5d176d, type: 2}
+  - {fileID: 1105909879547644, guid: 574e345e45b1dc048b5df1d2539d3b63, type: 2}
+  - {fileID: 1842426964191138, guid: 1303cc015ea1f0d4c9fc5e1c6d00e4d2, type: 2}
+  StrikeTexts:
+  - Hey, you made a mistake, chum. Don't worry, but pay more atention next time!
+  - Buddy, you made a mistake again! Stay sharp!
+  - Hey, that's enough, don't you think? You are making me lose money, kid.
+  - 'Oi, brat. blow it again and I''ll have to fire you and break your legs. '
+  - 'Oi, brat. blow it again and I''ll have to fire you and break your legs. '
+  MaxStrikesToLose: 5
+--- !u!114 &114695339823179640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c319d8da91bef4ab5c631bba195ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundGroups:
+  - name: Music
+    clip: {fileID: 8300000, guid: b189995c1a49e3d4190c072764647183, type: 3}
+  - name: Angry
+    clip: {fileID: 8300000, guid: 0e7dbf2bf6d483a458c90112fadf7543, type: 3}
+  - name: Happy
+    clip: {fileID: 8300000, guid: c07fe697fc7a19145a0b319060153725, type: 3}
+  - name: Apretar Boto
+    clip: {fileID: 8300000, guid: dc81fa3a506fb6448b2eff421cd97455, type: 3}
+  - name: Obrir trampilla
+    clip: {fileID: 8300000, guid: 4f5c2def0bba1ca4f83acb354b80fd1d, type: 3}
+  - name: Obrir tenda
+    clip: {fileID: 8300000, guid: c336052b31542ed4dbaf997ceb96be7e, type: 3}
+  - name: Tancar tenda
+    clip: {fileID: 8300000, guid: 8f8873bfbf6594849aeec22108ce126d, type: 3}
+--- !u!114 &114936323604442366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060040572005980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e67ff81b5135343a2b3622253a467b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundLibrary: {fileID: 114695339823179640}
+  MasterVolume: 1
+  MusicVolume: 0
+  SfxVolume: 1
